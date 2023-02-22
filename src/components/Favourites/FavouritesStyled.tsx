@@ -6,10 +6,7 @@ const FavouritesStyled = styled.div`
   justify-content: center;
   flex-direction: column;
 
-  .favExpressions {
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
+  .favExpression {
     padding: 3px;
   }
 `;
