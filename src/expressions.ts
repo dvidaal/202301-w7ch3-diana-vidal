@@ -5,7 +5,7 @@ export const expressions = [
   "Cal?",
   "EXPRESIONES",
   "¿Tienes las devtools cerradas?",
-  "Os imagináis que alguien este programando sin estar compilando al mismo tiempo?",
+  "¿Os imagináis que alguien este programando sin estar compilando al mismo tiempo?",
   "LA CAJA DE LEGO",
   "¿Qué devuelve una función?",
   "Ahí está el tío",
@@ -13,7 +13,7 @@ export const expressions = [
   "Y...... SE ACABÓ",
   "Os echan eh! si respondéis esto os echan de la empresa!",
   "¿Challengesito?",
-  "Mentir esta feo",
+  "Mentir está feo",
   "Llavors, semillas",
   "Mario bug",
 ];
