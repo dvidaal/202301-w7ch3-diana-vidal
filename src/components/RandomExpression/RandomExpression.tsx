@@ -3,6 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setRandomExpression } from "../../features/expressionSlice";
 import { RootState } from "../../app/store";
 import Button from "../Button/Button";
+import RandomExpressionStyled from "./RandomExpressionStyled";
 
 function RandomWord() {
   const dispatch = useDispatch();
@@ -16,11 +17,13 @@ function RandomWord() {
 
   return (
     <>
-      <Button
-        onClick={handleButtonClick}
-        label="Genera frase aleatoria de Mario"
-      />
-      <p>{currentWord}</p>
+      <RandomExpressionStyled>
+        <Button
+          onClick={handleButtonClick}
+          label="Genera frase aleatoria de Mario"
+        />
+        <p className="randomExpression">{currentWord}</p>
+      </RandomExpressionStyled>
     </>
   );
 }
