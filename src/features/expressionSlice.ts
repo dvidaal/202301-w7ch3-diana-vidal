@@ -12,7 +12,7 @@ const initialState: ExpressionState = {
 };
 
 const expressionSlice = createSlice({
-  name: "word",
+  name: "expression",
   initialState,
   reducers: {
     setRandomExpression: (state) => {
