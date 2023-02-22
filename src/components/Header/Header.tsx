@@ -1,3 +1,4 @@
+import React from "react";
 import HeaderStyled from "./HeaderStyled";
 
 const Header = (): JSX.Element => {
